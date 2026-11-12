@@ -1,5 +1,5 @@
 #include "Soul.h"
-
+//hello
 void Soul::SetName(std::string newName)
 {
 	charName = newName;
