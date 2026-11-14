@@ -36,10 +36,10 @@ bool Party::AddMember(Soul* newMember)
 	return daBool;
 }
 
-bool Party::DelMember(Soul* newMember)
+bool Party::DelMember(Soul* leaver)
 {
 	bool daBool = false;
-	auto it = std::find(members.begin(), members.end(), newMember);
+	auto it = std::find(members.begin(), members.end(), leaver);
 	if (it != members.end())
 	{
 		members.erase(it);
