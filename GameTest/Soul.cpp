@@ -45,12 +45,14 @@ Soul::Soul()
 	charName = "Default Name";
 	charHealth = 10;
 	charAttack = 1;
+	charSpeed = 1;
 }
-Soul::Soul(std::string name, int health, int attack)
+Soul::Soul(std::string name, int health, int attack, int speed)
 {
 	charName=name;
 	charAttack = attack;
 	charHealth = health;
+	charSpeed = speed;
 }
 
 void Soul::TakeDamage(int damage)

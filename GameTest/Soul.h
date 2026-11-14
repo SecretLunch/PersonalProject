@@ -25,7 +25,7 @@ public:
 
 	//const
 	Soul();
-	Soul(std::string name, int health, int attack);
+	Soul(std::string name, int health, int attack, int speed);
 
 	void TakeDamage(int damage);
 
