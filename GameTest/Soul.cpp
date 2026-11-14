@@ -15,6 +15,11 @@ void Soul::SetAttack(int newAttack)
 	charAttack = newAttack;
 }
 
+void Soul::SetSpeed(int newSpeed)
+{
+	charSpeed = newSpeed;
+}
+
 std::string Soul::GetName() const
 {
 	return charName;
@@ -28,6 +33,11 @@ int Soul::GetHealth() const
 int Soul::GetAttack() const
 {
 	return charAttack;
+}
+
+int Soul::GetSpeed() const
+{
+	return charSpeed;
 }
 
 Soul::Soul()
